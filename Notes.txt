@@ -1,0 +1,5 @@
+1. In React Native HTML elements only will get event handler functionality.
+
+2. crypto.randomUUID() it is built in browser for generating ID's(but it won't work in older browsers).
+
+3. Symbols can not be transmitted via JSON.
