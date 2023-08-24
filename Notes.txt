@@ -1,5 +1,26 @@
+npm i json-server
+"server": "json-server --watch data/cities.json --port 8000 --delay 500"
+
+
+
 1. In React Native HTML elements only will get event handler functionality.
 
 2. crypto.randomUUID() it is built in browser for generating ID's(but it won't work in older browsers).
 
 3. Symbols can not be transmitted via JSON.
+
+CSS Module
+=========
+
+Don't use normal element selector in css module, because it will affect overall element style.
+
+How to change css module styles into global styles?
+
+:global(.test)
+
+
+<Link className={styles.cityItem} to={`/${id}`}>
+
+If we start the ID with slash, it will go to the route url like http://localhost:3000/id
+
+
