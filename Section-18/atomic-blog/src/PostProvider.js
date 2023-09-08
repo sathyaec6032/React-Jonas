@@ -15,8 +15,6 @@ function PostProvider({ children }) {
     Array.from({ length: 30 }, () => createRandomPost())
   );
   const [searchQuery, setSearchQuery] = useState("");
-
-  console.log(posts);
   // Derived state. These are the posts that will actually be displayed
   const searchedPosts =
     searchQuery.length > 0

@@ -14,8 +14,6 @@ function createRandomPost() {
 function App() {
   const [isFakeDark, setIsFakeDark] = useState(false);
   // Whenever `isFakeDark` changes, we toggle the `fake-dark-mode` class on the HTML element (see in "Elements" dev tool).
-  const x = usePosts();
-  console.log(x);
   useEffect(
     function () {
       document.documentElement.classList.toggle("fake-dark-mode");
