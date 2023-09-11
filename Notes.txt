@@ -24,3 +24,10 @@ How to change css module styles into global styles?
 If we start the ID with slash, it will go to the route url like http://localhost:3000/id
 
 
+
+npm i redux-devtools-extension
+
+import { composeWithDevTools } from "redux-devtools-extension";
+
+const store = createStore(rootReducer, composeWithDevTools(applyMiddleware(thunk)));
+
