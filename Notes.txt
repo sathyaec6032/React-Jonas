@@ -95,3 +95,7 @@ export default {
 
 * Writing in the theme object will overwrite everything.
 * Writing in the extend object will add new styles.
+
+
+Redux Toolkit
+npm i @reduxjs/toolkit
